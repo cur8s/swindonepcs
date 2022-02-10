@@ -5,35 +5,35 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+dist/wp-admin/
+dist/wp-content/index.php
+dist/wp-content/languages
+dist/wp-content/plugins/index.php
+dist/wp-content/themes/index.php
+dist/wp-includes/
+# dist/index.php
+dist/license.txt
+dist/readme.html
+# dist/wp-*.php
+# dist/xmlrpc.php
 
-# Configuration
-wp-config.php
+# # Configuration
+# dist/wp-config.php
 
-# Example themes
-/wp-content/themes/twenty*/
+# # Example themes
+dist/wp-content/themes/twenty*/
 
-# Example plugin
-/wp-content/plugins/hello.php
+# # Example plugin
+dist/wp-content/plugins/hello.php
 
-# Uploads
-/wp-content/uploads/
+# # Uploads
+dist/wp-content/uploads/
 
-# Log files
+# # Log files
 *.log
 
 # htaccess
-/.htaccess
+# dist/.htaccess
 
 # All plugins
 #
@@ -50,3 +50,4 @@ wp-config.php
 # Custom
 .history
 *.zip
+.DS_Store
